@@ -29,6 +29,7 @@
     justify-content: center;
     backdrop-filter: blur(40px);
 }
+/* pausing here for the night. it's 7:39 in the tutorial, about to update the clock text display */
 .container::before{
     content:' ';
     width: 180px;
