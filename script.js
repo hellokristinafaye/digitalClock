@@ -12,3 +12,5 @@ let currentTime = new Date();
 // console.log(currentTime.getSeconds());
 
 hrs.innerHTML = currentTime.getHours();
+min.innerHTML = currentTime.getMinutes();
+sec.innerHTML = currentTime.getSeconds();
