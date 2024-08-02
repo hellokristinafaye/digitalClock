@@ -7,4 +7,6 @@ let sec = document.getElementById("sec");
 
 let currentTime = new Date();
 
-console.log(currentTime);
+console.log(currentTime.getHours());
+console.log(currentTime.getMinutes());
+console.log(currentTime.getSeconds());
