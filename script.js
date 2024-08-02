@@ -12,13 +12,14 @@ let sec = document.getElementById("sec");
 // console.log(currentTime.getSeconds());
 
 setInterval(() => { 
-    
+    // this variable needs to be insided this function to work??? 
     let currentTime = new Date();
-    
+
     // updating HTML content with currentTime and "getTime" methods
     hrs.innerHTML = currentTime.getHours();
     min.innerHTML = currentTime.getMinutes();
     sec.innerHTML = currentTime.getSeconds();
 
+    // 1000 milliseconds = every second.
 }, 1000)
 
