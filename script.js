@@ -19,7 +19,7 @@ setInterval(() => {
     // adding inline if condition to display 2 digits when current time is smaller than 10. starting code w/ sec not hrs so we can see it work before duplicating.
     hrs.innerHTML = (currentTime.getHours() < 10 ? "0" : "") + currentTime.getHours();
     min.innerHTML = (currentTime.getMinutes() < 10 ? "0" : "") + currentTime.getMinutes();
-    sec.innerHTML = (currentTime.getSeconds()<10?"0":"") + currentTime.getSeconds();
+    sec.innerHTML = (currentTime.getSeconds()<10 ? "0" : "") + currentTime.getSeconds();
 
     // 1000 milliseconds = every second.
 }, 1000)
